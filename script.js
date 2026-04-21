@@ -145,4 +145,4 @@ async function syncSheet() {
 // INIT
 render();
 updateTime();
-setInterval(syncSheet, 3000); // optional sync every 30s
+setInterval(syncSheet, 5000); // optional sync every 30s
