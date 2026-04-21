@@ -2,8 +2,8 @@ const TOLA = 11.664;
 
 // DEFAULT VALUES
 let state = {
-  gold: 301300,
-  silver: 3800,
+  gold: 0,
+  silver: 0,
   date: "2083-Baishak-08",
   sheetURL: "https://script.google.com/macros/s/AKfycbzVj_QR5TQjSukKCwrtccnKfVohB9K3ajF8tB69J4vPWosMBzFepoLiQNihduMUurDb/exec"
 };
@@ -145,4 +145,4 @@ async function syncSheet() {
 // INIT
 render();
 updateTime();
-setInterval(syncSheet, 30000); // optional sync every 30s
+setInterval(syncSheet, 3000); // optional sync every 30s
