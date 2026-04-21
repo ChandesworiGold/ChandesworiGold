@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Gold & Silver Board Pro</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>Gold & Silver Rate Board</h1>
+
+<div class="top-bar">
+  <div id="date"></div>
+  <div id="time"></div>
+</div>
+
+<div class="grid">
+
+  <div class="card">
+    <h2>Gold / Tola</h2>
+    <div id="goldTola" class="price">Rs 0</div>
+  </div>
+
+  <div class="card">
+    <h2>Gold / 10g</h2>
+    <div id="gold10g" class="price">Rs 0</div>
+  </div>
+
+  <div class="card">
+    <h2>Silver / Tola</h2>
+    <div id="silverTola" class="price">Rs 0</div>
+  </div>
+
+  <div class="card">
+    <h2>Silver / 10g</h2>
+    <div id="silver10g" class="price">Rs 0</div>
+  </div>
+
+</div>
+
+<!-- TICKER -->
+<div class="ticker">
+  <div id="ticker"></div>
+</div>
+
+<!-- ADMIN PANEL -->
+<div id="admin" class="admin hidden">
+
+  <div class="admin-box">
+    <h2>Admin Panel</h2>
+
+    <label>Gold per Tola</label>
+    <input type="number" id="goldInput">
+
+    <label>Silver per Tola</label>
+    <input type="number" id="silverInput">
+
+    <label>Date (BS)</label>
+    <input type="text" id="dateInput">
+
+    <label>Google Sheets CSV URL</label>
+    <input type="text" id="sheetInput">
+
+    <div class="buttons">
+      <button id="save">Save</button>
+      <button id="close">Close</button>
+    </div>
+
+    <p>Press CTRL to open/close</p>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
