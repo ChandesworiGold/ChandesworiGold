@@ -99,11 +99,11 @@ function updateTime() {
 setInterval(updateTime, 1000);
 
 // ADMIN OPEN (CTRL)
-document.addEventListener("keydown", e => {
-  if (e.key === "Control") {
-    admin.classList.toggle("hidden");
-  }
-});
+//document.addEventListener("keydown", e => {
+//  if (e.key === "Control") {
+  //  admin.classList.toggle("hidden");
+//  }
+//});
 
 // SAVE
 document.getElementById("save").onclick = () => {
